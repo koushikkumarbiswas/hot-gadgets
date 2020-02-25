@@ -1,0 +1,86 @@
+.container{
+    margin-bottom: 50px;
+}
+.nav-item a{
+    color:#000000;
+}
+.buy-now{
+    border: none;
+    padding: 10px 25px;
+    background: #252525;
+    color: #fff;
+    border-radius: 10px;
+}
+a, a:hover{
+    text-decoration: none;
+    padding-top: 15px;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.carousel-inner{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+	background-color: orange;
+}
+.carousel-indicators li:active{
+    width: 45px;
+    height: 10px;
+    background-image: radial-gradient(142deg, #ff9c35 0%, #ffd019 100%);
+}
+.card-heading a{
+    color: darkred;
+}
+.card{
+    border: none;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 30px lightgray;
+}
+.card h5{
+    font-weight: 600;
+}
+.card-footer{
+    border: none;
+    background: none;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer h2{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    color: black;
+}
+.footer h2:after{
+    height: 5px;
+    position: absolute;
+    width: 10%;
+    left:45%;
+    bottom: -15px;
+    border-radius: 10px;
+    content:'';
+    background-image: linear-gradient(45deg, #FF9C35, #FFCE1A);
+}
+.b{
+    border-radius: 0 10% 0 10%;
+}
+.c{
+    border-radius: 10% 0 10% 0;
+}
+.hero{
+    background-image: url(images/banner-products/banner-bg.png);
+    background-size: 53%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 95px;
+    margin-top: 90px;
+}
